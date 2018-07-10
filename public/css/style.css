@@ -8,21 +8,16 @@ and open the template in the editor.
     Author     : Sammy Guergachi <sguergachi at gmail.com>
 */
 .media a{
-    color: black;
+    color: white;
 }
 .media a:hover{
     color:blue;
 }
 html, body {
-
+    width: 100%;
     height: 100%;
 }
-body{
-    height: 100%;
-    background-image:url('../image/background.png') ;
-    background-repeat: no-repeat;
 
-    background-size:cover;
-
+#brand-image{
+    height:56px;
 }
-
