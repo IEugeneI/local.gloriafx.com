@@ -10,8 +10,9 @@
 </div>
 <div class="d-none d-md-block">
     <div id="box" >
-
-        <img  id="boximage" src="../../public/image/logo.png" alt="" ></img>
+        <a href="<?= url('/'); ?>">
+            <img  id="boximage" src="public/image/logo.png" alt="" ></img>
+        </a>
     </div>
     <?php
     foreach ($mainmenu as $flight) {

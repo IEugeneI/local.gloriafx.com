@@ -11,12 +11,15 @@ and open the template in the editor.
     color: white;
 }
 .media a:hover{
-    color:blue;
+    color:green;
 }
 
 html, body {
     width: 100%;
     height: 100%;
+    letter-spacing: 0.2em;
+    overflow:auto;
+
 }
 
 #brand-image{
@@ -36,6 +39,7 @@ html, body {
     display:block;
     width:258px;
     overflow:hidden;
+
 }
 .menu li{
     display:none;
@@ -57,9 +61,14 @@ html, body {
     width:258px;
     margin-bottom:2px;
     display:block;
+    list-style-type: none
 
 
 
+
+}
+.showhide{
+    position:fixed;
 }
 .menu a{
     color:white;
@@ -100,4 +109,518 @@ html, body {
 .menuhor a{
     color:white;
     text-decoration: none;
+}
+
+.fa-times{
+    color:white;
+}
+.url{
+    margin-left:258px;
+    color:green;
+    top:60px;
+    position:absolute;
+    text-transform: uppercase;
+}
+.content{
+    display:block;
+    float: left;
+
+    margin-top: 50px;
+    left:258px;
+    position:fixed;
+    overflow:hidden;
+
+}
+
+
+
+.contentdiv{
+    display:block;
+    width:33%;
+    height:30vh;
+
+    float:left;
+    padding: 10px;
+    overflow:hidden;
+
+}
+.contentdiv:hover{
+    -webkit-filter: grayscale(100%);
+}
+.contentdiv img { width: 100%; height:100%; }
+
+
+.imagecontent{
+    display:block;
+    width:50%;
+    height:200px;
+    float:left;
+
+    overflow:hidden;
+
+}
+.textcontent{
+    display:block;
+    width:50%;
+    height:200px;
+    float:left;
+    background-color: grey;
+    border-bottom:1px solid black;
+
+}
+.imagecontent img { width: 100%; height:100%; }
+
+
+.contentmobile{
+    width:100%;
+    height:200px;
+    overflow:hidden;
+}
+.contentmobile:hover{
+    -webkit-filter: grayscale(100%);
+}
+
+.mobileurl{
+    color:green;
+    postion:absolute;
+    text-align:center;
+    text-transform: uppercase;
+}
+.footercontent{
+    display:none;
+    opacity:0.8;
+    background-color:grey;
+    width:100%;
+    top:0px;
+    position:relative;
+}
+.contenturl{
+    color:white;
+}
+#placeholder{
+    width:100%;
+    height:100%;
+
+
+}
+#placeholder img{
+    width: 100%;
+    height:100%;
+
+}
+#absolute{
+    position:absolute;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+#rightblock{
+    display:block;
+    float:right;
+    width:25%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow:scroll;
+    overflow-x:hidden;  /*для горизонтального*/
+
+}
+#leftbutton{
+    display:block;
+    float:left;
+
+}
+.hfullinfo{
+    color:#00FF00;
+    text-align:center;
+    padding-top:20px;
+}
+.pfullinfo{
+    color:white;
+    text-align:left;
+    padding-left: 20px;
+    font-size: 0.9em;
+}
+.pvideo{
+    text-align:center;
+    width:40%;
+    height:21%;
+    padding-left: 20px;
+
+}
+.pvideo img{
+    widht:100%;
+    height:100%;
+}
+
+.imgdiv{
+    display:block;
+    width:41.5%;
+    height: 12%;
+    padding-left: 20px;;
+    padding-top: 5px;
+    float:left;
+}
+
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.modal-dialog  img{
+    width:100%;
+    height:100%;
+}
+.modal-dialog{
+    min-width: 57%;
+    height: 60%;
+    margin-left: 19%;
+}
+#mdcontent{
+    display:block;
+
+    padding-top:30px;
+    top:60%;
+
+}
+#mdcontent p{
+    padding-left:3%;
+}
+#mdcontent h3{
+    padding-left:3%;
+}
+#fullcontentmd{
+    position:fixed;
+    width:100%;
+    height:100%;
+    overflow:scroll;
+    overflow-x:hidden;  /*для горизонтального*/
+    background-color:grey;
+}
+#fullcontentmd p{
+    color:white;
+}
+#absolute1{
+    width:100%;
+    height:60%;
+    overflow:hidden;
+
+}
+#absolute1 img{
+    width: 100%;
+    height: 100%;
+}
+.imgmd{
+    display:block;
+    float:left;
+    width:48%;
+    height:48%;
+    padding-left:20px;
+    padding-top:5px;
+    overflow:hidden;
+
+}
+.imgmd img{
+    width:100%;
+    heigth:100%;
+}
+.mymodaldialogvideo{
+    display: none;
+    position: absolute;
+    min-width: 57%;
+    height: 75%;
+    margin-left: 19%;
+    top:10%;
+}
+#videobutton{
+    border: 0;
+    padding: 0;
+
+}
+
+
+button{
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+
+}
+button:focus {
+    outline: none;
+}
+.midbuttonvideo{
+    width:90%;
+}
+.leadershipmd{
+    display:block;
+    width:25%;
+    height:45vh;
+    float:left;
+    padding-left: 10px;
+    padding-top: 10px;
+    overflow:hidden;
+}
+.leadershipmd img{
+    height: 100%;
+    width:100%;
+}
+
+
+
+.leadershipmd:hover{
+    -webkit-filter: grayscale(100%);
+}
+.leadershipmdblock img{
+    height: 100%;
+    width:100%;
+}
+.material{
+    display:block;
+    width:100%;
+    height: 100%;
+    border:1px solid black;
+    overflow:auto;
+}
+.workersinfo{
+    display:block;
+    float: left;
+    height:50%;
+    margin-top: 50px;
+    left:258px;
+    position:fixed;
+    overflow:hidden;
+    color:white;
+    width:30%;
+
+}
+
+.workersinfo img{
+    width:100%;
+    height:100%;
+}
+.workersinfo p{
+    left:670px;
+    position:fixed;
+}
+.workersinfomobile{
+    width:48%;
+    display:block;
+    height:70%;
+    float:left;
+    position:fixed;
+}
+.workersinfomobile img{
+    width:100%;
+    height:100%;
+}
+.workersinfomobiletext{
+    width:49%;
+    display:block;
+    float:left;
+    color:white;
+    position: fixed;
+    left:49%;
+}
+.footerleadership{
+    display:none;
+    width:100%;
+    height:70px;
+    opacity:0.8;
+    background-color:black;
+    position:absolute;
+}
+.footerleadership p{
+    color:white;
+}
+.leadershipmd a{
+    text-decoration: none;
+}
+.awardsimage{
+    width:100%;
+}
+.awardsimage img{
+    width:100%;
+    height: 100%;
+}
+.awardstext{
+    overflow:auto;
+}
+.awardscontent{
+    display:block;
+    width:80%;
+    float: left;
+    margin-top: 50px;
+    left:258px;
+    position:relative;
+
+
+}
+.awardscontentmd{
+    width:100%;
+    padding-left:20px;
+}
+.awardscontentmd img{
+    width:90%;
+    height:100%;
+}
+.awardscontent p {
+    color:grey;
+    font-size:0.9em;
+}
+.concertartimg{
+    width:40%;
+    padding-top: 30px;
+    float:left;
+    height: 40%;
+}
+.concertartimg img {
+    width:100%;
+    height: 100%;
+}
+.concertartp{
+    width:50%;
+    padding-top: 30px;
+    padding-left:15px;
+    float:left;
+    height: 40%;
+    color:white;
+}
+.concertartp p{
+    color:grey;
+}
+.concertartmd{
+    width:90%;
+    padding-left:4%;
+    color:white;
+}
+.concertartmd img{
+    width:100%;
+    height: 100%;
+}
+.concertartmd p{
+    color:grey;
+}
+.careers{
+    color:grey;
+    padding-bottom: 10px;
+    width:600px;
+    display:block;
+
+}
+.careers p{
+    width:440px;
+    display:block;
+
+}
+.careers input[type="text"]{
+    background: rgba(0, 0, 0, 0.5);
+    color:grey;
+}
+.careers textarea {
+    background: rgba(0, 0, 0, 0.5);
+    color:grey;
+}
+.careerscontent{
+    display:block;
+    float: left;
+    margin-top: 50px;
+    left:258px;
+    position:relative;
+
+}
+.careersmd{
+    width:100%;
+    padding-left:10%;
+    color:grey;
+}
+.careersmd input[type="text"]{
+    background: rgba(0, 0, 0, 0.5);
+    color:grey;
+}
+.careersmd textarea {
+    background: rgba(0, 0, 0, 0.5);
+    color:grey;
+}
+.contactadress{
+    position: absolute;
+    display:block;
+    left:550px;
+    top:390px;
+    color:white;
+}
+.contactsemails{
+    position: absolute;
+    display:block;
+    left:740px;
+    top:120px;
+    color:white;
+}
+.contactsemails p{
+    font-size: 1em;
+}
+.contactsemails h2{
+    font-size:1em;
+    color:green;
+}
+
+.blogmd{
+    display:block;
+    width:30%;
+    height:45vh;
+    float:left;
+    padding-left: 10px;
+    padding-top: 10px;
+    overflow:hidden;
+
+}
+
+.blogmd:hover{
+    -webkit-filter: grayscale(100%);
+}
+.blogmdimg{
+    width:100%;
+    height:45%;
+}
+.blogmdimg img{
+    width:100%;
+    height: 100%;
+}
+.blogmdtext{
+    width:100%;
+    height:29%;
+    color:white;
+    font-size:0.9em;
+    letter-spacing:0.1em;
+}
+.pdateblog{
+    float:left;
+    font-size:0.7em;
+}
+.blogfullinfo{
+    display:block;
+    float: left;
+    height:100%;
+    margin-top: 50px;
+    left:258px;
+    position:fixed;
+    overflow:hidden;
+    color:white;
+    width:100%;
+}
+.blogfullinfoimg{
+    padding-top:2%;
+    width:30%;
+    height:50%;
+    float: left;
+}
+.blogfullinfoimg img{
+    width:100%;
+    height:100%;
+}
+.blogfullinfotext{
+    float:left;
+    width:40%;
+    padding-top:2%;
+    padding-left:2%;
 }

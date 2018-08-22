@@ -2,7 +2,7 @@
 <div class="d-md-none">
     <div class="navbar navbar-dark bg-dark  ">
         <div class="navbar-header">
-            <a class="navbar-brand mylogo" href="#">
+            <a class="navbar-brand mylogo" href="<?= url('/'); ?>">
                 <img  id="brand-image" src="../../public/image/logo.png" alt="" ></img>
             </a>
         </div>
