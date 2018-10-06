@@ -4,10 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ContentModel extends Model {
+class mainpagebackgroundModel extends Model {
 
     //
-    protected $table = 'content';
+    protected $table = 'mainpagebackground';
     public $timestamps = false;
 
 }

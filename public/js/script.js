@@ -115,5 +115,6 @@ $(document).ready(function() {
         $(this).find('.footerleadership').css('display', 'none');
     });
 
+
 });
 

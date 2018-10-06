@@ -12,7 +12,7 @@
         <style>
             body{
 
-                background:url('image/mainpagebackground/<?= $background ?>')   center no-repeat;
+                background:url('public/image/mainpagebackground/<?= $background ?>')   center no-repeat;
 
                 font-family: 'Open Sans', sans-serif;
                 background-size:cover;

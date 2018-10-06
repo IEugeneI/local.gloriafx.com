@@ -6,7 +6,9 @@ use App\SecondMenu;
 use App\ContentModel;
 use App\workers;
 use Carbon\Carbon;
+use App\ContentBackgroundModel;
 
+$allfon = App\ContentBackgroundModel::all();
 $mainmenu = App\MenuModel::all();
 $secondmenu = App\SecondMenu::all();
 $content = App\ContentModel::all();
@@ -16,7 +18,11 @@ $uri = App\SecondMenu::where('http', $url)
         ->pluck('name')
         ->all();
 
-$background = 'new-york-city.jpg';
+foreach ($allfon as $fon) {
+    if ($fon->id_image == 1) {
+        $background = $fon->name;
+    }
+}
 ?>
 
 @include('blog/layout/header')

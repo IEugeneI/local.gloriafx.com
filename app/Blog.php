@@ -8,6 +8,6 @@ class Blog extends Model {
 
     //
     protected $table = 'Blog';
-    protected $dateFormat = "Y-m-d H:i:s";
+    public $timestamps = false;
 
 }

@@ -4,7 +4,9 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
 use App\MenuModel;
 use App\SecondMenu;
 use App\ContentModel;
+use App\ContentBackgroundModel;
 
+$allfon = App\ContentBackgroundModel::all();
 $mainmenu = App\MenuModel::all();
 $secondmenu = App\SecondMenu::all();
 $content = App\ContentModel::all();
@@ -15,7 +17,11 @@ $uri = App\SecondMenu::where('http', $url)
 $idmenu = App\SecondMenu::where('http', $url)
         ->pluck('id')
         ->all();
-$background = 'new-york-city.jpg';
+foreach ($allfon as $fon) {
+    if ($fon->id_image == 1) {
+        $background = $fon->name;
+    }
+}
 ?>
 @include('ContentViews/layouts/header')
 @include('ContentViews/layouts/social')

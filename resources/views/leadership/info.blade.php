@@ -7,13 +7,19 @@ use App\MenuModel;
 use App\SecondMenu;
 use App\ContentModel;
 use App\workers;
+use App\ContentBackgroundModel;
 
+$allfon = App\ContentBackgroundModel::all();
 $mainmenu = App\MenuModel::all();
 $secondmenu = App\SecondMenu::all();
 $content = App\ContentModel::all();
 $workers = App\workers::all();
 
-$background = 'new-york-city.jpg';
+foreach ($allfon as $fon) {
+    if ($fon->id_image == 1) {
+        $background = $fon->name;
+    }
+}
 ?>
 @include('leadership/layout/header')
 @include('leadership/layout/social')

@@ -124,12 +124,13 @@ html, body {
 .content{
     display:block;
     float: left;
-
+    width:83%;
     margin-top: 50px;
     left:258px;
     position:fixed;
-    overflow:hidden;
-
+    height:85%;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 
 
@@ -517,6 +518,18 @@ button:focus {
     background: rgba(0, 0, 0, 0.5);
     color:grey;
 }
+.careers input[type="email"]{
+    background: rgba(0, 0, 0, 0.5);
+    color:grey;
+}
+.careers input[type="tel"]{
+    background: rgba(0, 0, 0, 0.5);
+    color:grey;
+}
+.careers input[type="url"]{
+    background: rgba(0, 0, 0, 0.5);
+    color:grey;
+}
 .careers textarea {
     background: rgba(0, 0, 0, 0.5);
     color:grey;
@@ -623,4 +636,241 @@ button:focus {
     width:40%;
     padding-top:2%;
     padding-left:2%;
+}
+.adminpannellheader{
+    top:0;
+    width:100%;
+    height:30px;
+    background-color: #7B68EE;
+    display:block;
+}
+.adminleftblock{
+    top:30px;
+    display: block;
+    width:17%;
+    height:100%;
+    border:1px solid black;
+    letter-spacing: 0.1em;
+    background-color: #222;
+    float:left;
+}
+.adminleftblock p{
+    color:white;
+}
+.adminleftblock li{
+    color:white;
+}
+.adminrightblock{
+    left:17%;
+    top:30px;
+    float:left;
+    display: none;
+    width:83%;
+    height:100%;
+}
+.twonmenu{
+    display: none;
+}
+.previewimage{
+    display:block;
+    border-top:1px solid black;
+    width:100%;
+
+    margin-top:15px;
+
+}
+.photo{
+    width:48%;
+    height:200px;
+    float:left;
+    padding-left:10px;
+    padding-top:50px;
+    display:block;
+
+}
+.photo img{
+    width:100%;
+    height:100%;
+}
+.loadbutton{
+    display:block;
+    width:100%;
+}
+.twonmenumain{
+    display: none;
+}
+.menuadmin{
+    display:block;
+
+}
+.menuadmin td{
+    border:1px solid black;
+}
+.saveinfoadmin{
+    margin:0 auto;
+    text-align:center;
+}
+.addmenuadmin{
+    display:block;
+    text-align:center;
+    margin-top: 30px;
+    border:1px solid black;
+}
+.deletemenu{
+    display:block;
+    text-align:center;
+    margin-top:30px;
+    border:1px solid black;
+}
+.deletemenu td{
+    border:1px solid black;
+}
+.secondmenuchange{
+    display: block;
+    width:600px;
+    float:right;
+    right: 150px;
+    border:1px solid black;
+    text-align: center;
+}
+.secondmenuadd{
+    display: block;
+    width:600px;
+    float:right;
+    right: 150px;
+    text-align: center;
+    border:1px solid black;
+}
+.deletesecondmenu{
+    display: block;
+    width:600px;
+    float:right;
+    right: 150px;
+    text-align: center;
+    border:1px solid black;
+}
+.twomenucontent{
+    display: none;
+}
+.contentadd{
+    display:block;
+    border:1px solid black;
+}
+.addimgvideo{
+    display:block;
+    right:15px;
+    padding-right:40px;
+    border:1px solid black;
+    padding-left:10px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+.butt{
+    width:100%;
+}
+.deletecontent{
+    dispaly:block;
+    text-align:center;
+}
+.deletecontent td{
+    border:1px solid black;
+}
+.deleteform{
+    display:block;
+    margin:0 auto;
+    text-align: center;
+}
+.updatecontent{
+    dispaly:block;
+    text-align:center;
+}
+.updatecontent td{
+    border:1px solid black;
+}
+.blogadddiv{
+    display:block;
+    border:1px solid black;
+}
+.fulltextblog{
+    display: block;
+    position:absolute;
+    right:2%;
+    top:15%;
+}
+.blogmenu{
+    display:none;
+}
+.leadershipadm{
+    display: none;
+}
+.deleteblog{
+    display:block;
+    text-align: center;
+}
+.deleteblog td{
+    border:1px solid black;
+}
+.area{
+    display:block;
+    float:left;
+}
+.addleader{
+    display:block;
+    border:1px solid black;
+    padding-top:10px;
+}
+
+.delleadership{
+    display:block;
+    border:1px solid black;
+    padding-top:10px;
+}
+.delleadership th{
+    border:1px solid black;
+}
+.delleadership td{
+    border:1px solid black;
+}
+.contentfon{
+    display: block;
+}
+.contentfon td{
+    border:1px solid black;
+}
+.addfoncontent{
+    display:block;
+    position:absolute;
+    right:15px;
+    border:1px solid black;
+    padding-left:5px;
+}
+.changeimage{
+    display:block;
+    position:absolute;
+    right:15px;
+    top:300px;
+    border:1px solid black;
+    padding-left:5px;
+}
+.users{
+    display:block;
+}
+.users td{
+    border:1px solid black;
+}
+.exitadm{
+    display:block;
+    right:10px;
+    position:absolute;
+    top:0px;
+
+}
+.exitadm a{
+    color: #000 !important;
+    text-decoration: none;
+}
+.Eugene{
+    left:0px;
+    display:block;
+    position:absolute;
 }
